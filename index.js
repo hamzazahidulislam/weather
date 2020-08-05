@@ -25,7 +25,7 @@ app.use('/api/history', require('./api/route'))
 const PORT = process.env.PORT || 4444
 app.listen(PORT, () => {
     console.log('APP is Runnig on PORT ' + PORT)
-    mongoose.connect(`mongodb+srv://admin:Hamza2020@cluster0.r2pfu.mongodb.net/weather-api?retryWrites=true&w=majority`, { useNewUrlParser: true }, () => {
+    mongoose.connect(`database link `, { useNewUrlParser: true }, () => {
         console.log('Database Connected')
     })
 })
