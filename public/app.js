@@ -12,7 +12,7 @@ const cityInput = document.getElementById('city-input')
 const historyElm = document.getElementById('history')
 const masterHistory = document.getElementById('master-history')
 
-const API_KEY = '9dd64af8bfad26db3070c6d050bc838c'
+const API_KEY = '678696t7tlg$aq53'
 const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}`
 const ICON_URL = 'http://openweathermap.org/img/wn/'
 const DEFAULT_CITY = 'madinah,sa'
